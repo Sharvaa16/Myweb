@@ -1,0 +1,490 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 1920px;
+  height: auto;
+  display: block;
+  align-content: space-between;
+}
+main{width: 1920px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: space-between;
+  margin-top: 90px;
+  background-image:url(./Pages/Steam/img/sda.jpg);
+  
+  
+}
+.but{
+    margin-right: 15px; 
+    /* border: 0.5px solid darkblue ; */
+}
+.head2{z-index: 10;
+  top: 0px;
+  position: fixed;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1920px;
+  height: 90px;
+  background-image: linear-gradient(180deg,#310248,#55057e);
+  opacity: 0.9;
+}
+.but6{
+  width: 85px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: none;
+}
+.but3{
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+}
+.but4{
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: none;
+  
+}
+.but5{
+  width: 180px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: none;
+}
+.buttons2{
+  width: 610px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* header{margin-top: 120px;} */
+.back{
+  border: 1px solid darkblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 870px;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+footer{
+  display: flex;
+  align-items: flex-start;
+  height: 50px;
+  width: 1920px;
+  background-color: #031249;
+}
+/* .main1{
+} */
+.main2{display: flex;
+  position: relative;
+  top: 50px;
+  margin-left: 9%;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 1520px;
+  height: 100px;
+  background-color: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  /* background-color: aqua; */
+}
+.durs{
+
+  width: 120px;
+  height: 100px;
+}
+.durs1{
+  width: 50px;
+  height: 100px;
+}
+.main3{
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 1400px;
+  height: auto;
+}
+.img{
+  width: 380px;
+  height: 300px;
+
+}
+.imag{width: 280px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.img1{
+  border-radius: 100px;
+  width: 750px;
+  height: auto;
+
+}
+.durs1{
+
+  width: 1530px;
+  height: 30px;
+  background-color: black;
+}
+.main31{width: 1530px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.main4{
+  width: 1530px;
+  height: 500px;
+  background-color: none;
+}
+.main5{
+  justify-content: center;
+  flex-direction: row;
+  /* align-items: center; */
+}
+.but10{top: 100px;
+  position: absolute;
+  width: 250px;
+  height: 350px;
+  border-radius: 15px;
+}
+.ooj{
+  display: none;
+}
+.img2{
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 350px;
+  height: 450px;
+}
+.ste{width: 350px;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  /* background-color: black; */
+  opacity: 1;
+  margin-left: 00px;
+
+}
+.ste1{
+  /* background-image: linear-gradient(180deg,black,#55057e,#6c3977); */
+  padding-left: 30px;
+  opacity: 0.80;
+  width: 350px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  justify-content: space-evenly;
+  border-bottom-right-radius: 20px ;
+  border-bottom-left-radius: 20px;
+}
+.ug{
+  color: lightblue;
+}
+.slide{
+  margin-top: 100px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7%;
+}
+.favimg{display: flex;
+  align-items: flex-start;
+  justify-content: center;
+    width: 350px;
+    
+}
+.fav{width: 350%;
+  height: auto;
+  overflow-y: hidden;
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  background-color: red;
+  display: flex;
+}
+.sss{
+  display: flex;
+  width: 90%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  margin-bottom: 30px;
+}
+.img3{
+  width: 1250px;
+  height: 700px;
+}
+
+.ste2{
+  height: auto;
+  background-image: url(./Pages/Steam/img/hhe1.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.ug1{
+  color: white;
+}
+.vid{
+  width: 1920px;
+  height: 1080px;
+}
+.zai{
+  height: 100px;
+}
+.ps{width: 1920px;
+  height: 1080px;
+  background-image:url(./Pages/PlayS/img/gOD.png  ) ;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+  transition: 3s;
+  /* position: absolute; */
+  z-index: -1;
+}
+.ps1{width: 1920px;
+  height: 1080px;
+  background-image:url(./Pages/PlayS/img/gOD.png  ) ;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+  transition: 3s;
+  position: absolute;
+  z-index: 2;
+}
+.ps2{width: 1920px;
+  height: 1080px;
+  background-image:url(./Pages/PlayS/img/gOD1.png  ) ;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+  position: absolute;
+  transition: 3s;
+  z-index: 2;
+}
+.ps3{width: 1920px;
+  height: 1080px;
+  background-image:url(./Pages/PlayS/img/Ghost.png  ) ;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+  position: absolute;
+  transition: 3s;
+  z-index: 2;
+}
+.ps5{width: 1920px;
+  height: 1080px;
+  background-image:url(./Pages/PlayS/img/Last\ of.png  ) ;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+  position: absolute;
+  transition: 3s;
+  z-index: 2;
+}
+.gow{z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+.gow1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 700px;
+}
+.ic{
+  position: relative;
+  bottom: 100px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  color: white;
+}
+.ic1{
+  position: relative;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  color: white;
+  margin-left: 74px;
+}
+.ic2{
+  position: relative;
+  bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  color: white;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.ic3{
+  position: relative;
+  top: 200px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  color: white;
+  margin-left: 72px;
+}
+.ug2{
+  font-size:80px;
+  color: white;
+}
+.ug3{
+  font-size: 30px;
+  color: white;
+}
+.ug4{
+  font-size: 20px;
+  color: white;
+}
+.imga{
+  width: 550px;
+
+}
+.pur{
+  
+  display: flex;
+  justify-content: space-between;
+}
+.pur1{width: 1920px;
+  height: 1080px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  top: -60px;
+  justify-content: space-around;
+
+  align-content: space-around;
+}
+.pur2{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pur3{
+  
+  display: flex;
+  justify-content: space-around;
+}
+.ug5{
+  position: relative;
+  z-index: 3;
+  left: 325px;
+  top: 288px;
+  width: 50px;
+  height: 50px;
+}
+.ubi{
+  width: auto;
+  height: 1080px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-image: url(./Pages/2kgaming/img/dua1.png);
+}
+.dua1{
+  height: 600px;
+  width: 1920px;
+  background-color: rebeccapurple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dua2{
+  height: 600px;
+  width: 1920px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dua3{
+  height: 600px;
+  width: 1920px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ps4{
+  margin-top: 10px;
+}
+.ps41{width: 1920px;
+  height: 1080px;
+  background-image: url(./Pages/PlayS/img/god6.jpg);
+
+}
+.ao{
+  position: absolute;
+  top: 0;
+}
+.ai{
+  z-index: -1;
+}
+.ap{
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.ubi{
+  /* margin-top: 100px; */
+  background-image: url(./Pages/Ubisoft/img/assa1.png);
+}
+.jja{
+  position: relative;
+  left: 1260px;
+  top: 298px;
+  z-index: 3;
+  width: 50px;
+  height: 50px;
+
+}
